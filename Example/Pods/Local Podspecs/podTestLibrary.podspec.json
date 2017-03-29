@@ -1,0 +1,32 @@
+{
+  "name": "podTestLibrary",
+  "version": "0.1.0",
+  "summary": "podTestLibrary",
+  "description": "podTestLibrary Text Demo.",
+  "homepage": "https://github.com/mukang.max@foxmail.com/podTestLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mukang.max@foxmail.com": "mukang@buluo-gs.com"
+  },
+  "source": {
+    "git": "https://github.com/mukang.max@foxmail.com/podTestLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "podTestLibrary/Classes/**/*",
+  "public_header_files": "podTestLibrary/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}
